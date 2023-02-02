@@ -30,8 +30,4 @@ Assumes that you have docker installed and postgres image downloaded
 
 `curl http://localhost:8080/api/blockchain/1`
 
-`curl -X POST http://localhost:8080/api/blockchain/add \
--H 'Content-Type: application/json' \
--d '{
-"name": "blockchain2"
-}`
+`curl -X POST http://localhost:8080/api/blockchain/add -H 'Content-Type: application/json' -d '{"name": "blockchain2"}`
