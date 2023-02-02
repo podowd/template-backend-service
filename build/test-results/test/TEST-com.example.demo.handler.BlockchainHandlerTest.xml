@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.demo.handler.BlockchainHandlerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-02-02T12:32:33" hostname="Padraigs-MacBook-Air.local" time="0.232">
+  <properties/>
+  <testcase name="createBlockchain_happyPathTest()" classname="com.example.demo.handler.BlockchainHandlerTest" time="0.196"/>
+  <testcase name="getNameById_happyPathTest()" classname="com.example.demo.handler.BlockchainHandlerTest" time="0.011"/>
+  <testcase name="createBlockchain_InvalidRequestTest()" classname="com.example.demo.handler.BlockchainHandlerTest" time="0.01"/>
+  <testcase name="getNameById_blockchainNotFound404Test()" classname="com.example.demo.handler.BlockchainHandlerTest" time="0.008"/>
+  <system-out><![CDATA[2023-02-02T12:32:33.071Z  INFO 26988 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.demo.handler.BlockchainHandlerTest]: BlockchainHandlerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-02-02T12:32:33.103Z  INFO 26988 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.handler.BlockchainHandlerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.1)
+
+2023-02-02T12:32:33.126Z  INFO 26988 --- [    Test worker] c.e.demo.handler.BlockchainHandlerTest   : Starting BlockchainHandlerTest using Java 19.0.1 with PID 26988 (started by padraigodowd in /Users/padraigodowd/Desktop/code/demo)
+2023-02-02T12:32:33.126Z  INFO 26988 --- [    Test worker] c.e.demo.handler.BlockchainHandlerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-02-02T12:32:33.588Z  INFO 26988 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-02-02T12:32:33.588Z  INFO 26988 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-02-02T12:32:33.589Z  INFO 26988 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-02-02T12:32:33.613Z  INFO 26988 --- [    Test worker] c.e.demo.handler.BlockchainHandlerTest   : Started BlockchainHandlerTest in 0.5 seconds (process running for 4.98)
+2023-02-02T12:32:33.850Z  INFO 26988 --- [    Test worker] c.e.demo.handler.BlockchainHandler       : Query params: {}
+2023-02-02T12:32:33.850Z  INFO 26988 --- [    Test worker] c.e.demo.handler.BlockchainHandler       : Getting blockchain name by id: 1
+2023-02-02T12:32:33.864Z  WARN 26988 --- [    Test worker] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.util.Map<java.lang.String, java.lang.Integer> com.example.demo.handler.BlockchainHandler.createBlockchain(com.example.demo.model.Blockchain)]
+2023-02-02T12:32:33.875Z  INFO 26988 --- [    Test worker] c.e.demo.handler.BlockchainHandler       : Query params: {}
+2023-02-02T12:32:33.875Z  INFO 26988 --- [    Test worker] c.e.demo.handler.BlockchainHandler       : Getting blockchain name by id: 99
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - DemoApplicationIntegrationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>DemoApplicationIntegrationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.example.demo.html">com.example.demo</a> &gt; DemoApplicationIntegrationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.067s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">happyPath()</td>
+<td class="success">1.064s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>12:32:29.351 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [DemoApplicationIntegrationTests]: using SpringBootContextLoader
+12:32:29.355 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.demo.DemoApplicationIntegrationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+12:32:29.571 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [DemoApplicationIntegrationTests]: [MockkContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+12:32:29.644 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [DemoApplicationIntegrationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockkTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ClearMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+12:32:29.644 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [DemoApplicationIntegrationTests], class annotated with @DirtiesContext [false] with mode [null]
+12:32:29.693 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test class com.example.demo.DemoApplicationIntegrationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.1)
+
+2023-02-02T12:32:29.889Z  INFO 26988 --- [    Test worker] c.e.d.DemoApplicationIntegrationTests    : Starting DemoApplicationIntegrationTests using Java 19.0.1 with PID 26988 (started by padraigodowd in /Users/padraigodowd/Desktop/code/demo)
+2023-02-02T12:32:29.890Z  INFO 26988 --- [    Test worker] c.e.d.DemoApplicationIntegrationTests    : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2023-02-02T12:32:30.837Z  INFO 26988 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-02-02T12:32:30.848Z  INFO 26988 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-02T12:32:30.848Z  INFO 26988 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-02-02T12:32:30.929Z  INFO 26988 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-02T12:32:30.930Z  INFO 26988 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1027 ms
+2023-02-02T12:32:31.038Z  INFO 26988 --- [    Test worker] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 9.5.1 by Redgate
+2023-02-02T12:32:31.038Z  INFO 26988 --- [    Test worker] o.f.c.internal.license.VersionPrinter    : See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#9.5.1
+2023-02-02T12:32:31.038Z  INFO 26988 --- [    Test worker] o.f.c.internal.license.VersionPrinter    : 
+2023-02-02T12:32:31.044Z  INFO 26988 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-02T12:32:31.149Z  INFO 26988 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@698f4aa
+2023-02-02T12:32:31.150Z  INFO 26988 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-02T12:32:31.172Z  INFO 26988 --- [    Test worker] o.f.c.i.database.base.BaseDatabaseType   : Database: jdbc:postgresql://localhost:5432/test (PostgreSQL 13.3)
+2023-02-02T12:32:31.214Z  INFO 26988 --- [    Test worker] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.022s)
+2023-02-02T12:32:31.247Z  INFO 26988 --- [    Test worker] o.f.core.internal.command.DbMigrate      : Current version of schema &quot;public&quot;: 1
+2023-02-02T12:32:31.248Z  INFO 26988 --- [    Test worker] o.f.core.internal.command.DbMigrate      : Schema &quot;public&quot; is up to date. No migration necessary.
+2023-02-02T12:32:31.978Z  INFO 26988 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53395 (http) with context path ''
+2023-02-02T12:32:31.987Z  INFO 26988 --- [    Test worker] c.e.d.DemoApplicationIntegrationTests    : Started DemoApplicationIntegrationTests in 2.278 seconds (process running for 3.354)
+2023-02-02T12:32:32.638Z  INFO 26988 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-02T12:32:32.639Z  INFO 26988 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-02T12:32:32.640Z  INFO 26988 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-02T12:32:32.679Z  INFO 26988 --- [o-auto-1-exec-1] c.e.demo.handler.BlockchainHandler       : Query params: {}
+2023-02-02T12:32:32.679Z  INFO 26988 --- [o-auto-1-exec-1] c.e.demo.handler.BlockchainHandler       : Getting blockchain name by id: 1
+2023-02-02T12:32:32.950Z  INFO 26988 --- [o-auto-1-exec-1] org.jooq.Constants                       : 
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.17.6
+                                      
+2023-02-02T12:32:32.952Z  INFO 26988 --- [o-auto-1-exec-1] org.jooq.Constants                       : 
+
+jOOQ tip of the day: Want to learn more about SQL? Check out our many blog posts: https://blog.jooq.org/sql
+
+2023-02-02T12:32:32.977Z DEBUG 26988 --- [o-auto-1-exec-1] org.jooq.tools.LoggerListener            : Executing query          : select &quot;public&quot;.&quot;blockchain&quot;.&quot;name&quot; from &quot;public&quot;.&quot;blockchain&quot; where &quot;public&quot;.&quot;blockchain&quot;.&quot;id&quot; = ?
+2023-02-02T12:32:32.978Z DEBUG 26988 --- [o-auto-1-exec-1] org.jooq.tools.LoggerListener            : -&gt; with bind values      : select &quot;public&quot;.&quot;blockchain&quot;.&quot;name&quot; from &quot;public&quot;.&quot;blockchain&quot; where &quot;public&quot;.&quot;blockchain&quot;.&quot;id&quot; = 1
+2023-02-02T12:32:33.009Z DEBUG 26988 --- [o-auto-1-exec-1] org.jooq.tools.LoggerListener            : Fetched result           : +--------+
+2023-02-02T12:32:33.010Z DEBUG 26988 --- [o-auto-1-exec-1] org.jooq.tools.LoggerListener            :                          : |name    |
+2023-02-02T12:32:33.010Z DEBUG 26988 --- [o-auto-1-exec-1] org.jooq.tools.LoggerListener            :                          : +--------+
+2023-02-02T12:32:33.010Z DEBUG 26988 --- [o-auto-1-exec-1] org.jooq.tools.LoggerListener            :                          : |Ethereum|
+2023-02-02T12:32:33.010Z DEBUG 26988 --- [o-auto-1-exec-1] org.jooq.tools.LoggerListener            :                          : +--------+
+2023-02-02T12:32:33.010Z DEBUG 26988 --- [o-auto-1-exec-1] org.jooq.tools.LoggerListener            : Fetched row(s)           : 1
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.6</a> at 2 Feb 2023, 12:32:35</p>
+</div>
+</div>
+</body>
+</html>
